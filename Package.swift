@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(
             name: "HCSStarRatingView",
-            path: "HCSStarRatingView",
+            path: "Sources/HCSStarRatingView",
             exclude: ["Info.plist"],
             publicHeadersPath: "",
             cSettings: [

@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '7.0'
   s.source                = { :git => "https://github.com/hsousa/HCSStarRatingView.git", :tag => "1.5" }
-  s.source_files          = "HCSStarRatingView/*.{h,m}"
+  s.source_files          = 'Sources/**/*'
   s.requires_arc          = true
 end
